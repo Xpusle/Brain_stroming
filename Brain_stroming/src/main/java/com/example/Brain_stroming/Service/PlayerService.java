@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.Brain_stroming.Repository.PlayerRepository;
 import com.example.Brain_stroming.model.Player;
-import com.example.Brain_stroming.model.Repository.PlayerRepository;
 
 @Service
 public class PlayerService {

@@ -1,6 +1,4 @@
-package com.example.Brain_stroming.model.Repository;
-
-
+package com.example.Brain_stroming.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
