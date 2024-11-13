@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Players</title>
+</head>
+<body>
+    <h2>All Players</h2>
+    <table border="1">
+        <tr>
+            <th>Age</th>
+            <th>Name</th>
+            <th>Current Playing Club</th>
+            <th>Strong Foot</th>
+            <th>Goals Scored</th>
+        </tr>
+        <tr th:each="player : ${players}">
+            <td th:text="${player.age}"></td>
+            <td th:text="${player.name}"></td>
+            <td th:text="${player.currentplayingclub}"></td>
+            <td th:text="${player.strongFoot}"></td>
+            <td th:text="${player.goalsscored}"></td>
+        </tr>
+    </table>
+</body>
+</html>
